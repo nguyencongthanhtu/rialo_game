@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("assets/bg.png") no-repeat center center fixed;
+  background-size: cover;   /* ảnh phủ toàn màn hình */
+}
+
+canvas {
+  border: 2px solid #333;
+  background: rgba(255, 255, 255, 0.2); /* nền trong suốt mờ nhẹ cho khung game */
+  backdrop-filter: blur(4px);           /* hiệu ứng làm mờ nền phía sau */
+}
